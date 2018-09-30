@@ -1,8 +1,9 @@
 # TimewatchReporter
 Required dependencies:
-python3
+```bash
 pip3 install selenium
 brew install chromedriver
+```
 
 ## Usage
 ```bash
