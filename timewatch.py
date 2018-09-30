@@ -6,7 +6,7 @@ import re
 try:
     from selenium import webdriver
 except Exception as e:
-    print("Selenium not found - install it with the following command:\npip3 install selenium")
+    print("Selenium not found - install it with the following command:\npip install selenium")
     os._exit(1)
 try:
     from selenium.webdriver.chrome.options import Options
@@ -51,7 +51,7 @@ def year(s):
         return y
     raise argparse.ArgumentTypeError("value has to be a number between {} and {}".format(min_year, max_year))
 
-parser = argparse.ArgumentParser(description="Required dependencies:\npip3 install selenium\nbrew install chromedriver", formatter_class=RawTextHelpFormatter)
+parser = argparse.ArgumentParser(description="Required dependencies:\npip install selenium\nbrew install chromedriver", formatter_class=RawTextHelpFormatter)
 parser.add_argument("company_number")
 parser.add_argument("employee_number")
 parser.add_argument("password")

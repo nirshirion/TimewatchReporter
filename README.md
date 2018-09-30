@@ -1,21 +1,21 @@
 # TimewatchReporter
 ## Required dependencies:
 ```bash
-pip3 install selenium
+pip install selenium
 brew install chromedriver
 ```
 
 ## Usage
 ```bash
-python3 timewatch.py company_number employee_number password
+python timewatch.py company_number employee_number password
 ```
 
 ## To run without opening the browser
 ```bash
-python3 timewatch.py company_number employee_number password -s
+python timewatch.py company_number employee_number password -s
 ```
 
 ## For more help and other options
 ```bash
-python3 timewatch.py -h
+python timewatch.py -h
 ```
