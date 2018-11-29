@@ -2,7 +2,7 @@
 ## Required dependencies:
 ```bash
 pip install selenium
-brew install chromedriver
+brew cask install chromedriver
 ```
 
 ## Usage
