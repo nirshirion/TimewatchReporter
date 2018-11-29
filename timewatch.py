@@ -1,3 +1,4 @@
+# -*- coding: UTF-8 -*-
 from datetime import datetime
 import argparse
 from argparse import RawTextHelpFormatter
@@ -11,7 +12,7 @@ except Exception as e:
 try:
     from selenium.webdriver.chrome.options import Options
 except Exception as e:
-    print("Chromedriver not found - install it with the following command:\nbrew install chromedriver")
+    print("Chromedriver not found - install it with the following command:\nbrew cask install chromedriver")
     os._exit(1)
 from selenium.webdriver.support.wait import WebDriverWait
 
